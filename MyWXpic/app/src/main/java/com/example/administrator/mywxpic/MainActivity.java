@@ -1,4 +1,4 @@
-package com.example.administrator.mywxpic;
+﻿package com.example.administrator.mywxpic;
 
 import android.Manifest;
 import android.content.Context;
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
     private static final String TAG = "MainActivity";
     private static final int REQUEST_CAMERA_CODE = 100; //选择照片
-    private static final int REQUEST_PREVIEW_CODE = 101; //预览
+    private static final int REQUEST_PREVIEW_CODE = 101; //预览 在此测试更新Git
     private static final int TAKE_PHOTO_REQUEST_CODE = 102; //读取相册权限的请求码
     private Context mContext;
     private GridView gridView;
